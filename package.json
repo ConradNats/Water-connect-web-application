@@ -1,17 +1,19 @@
 {
-  "name": "backend",
+  "name": "water-connect-web-application",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A full-stack application for connecting watermen to rural households to enable availability of clean and safe water",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
   }
 }
